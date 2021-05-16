@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/dark_mode"
+        android:title="Dunkles Design"
+        android:icon="@mipmap/dark_mode"
+        app:showAsAction="always"
+        />
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings"
+            android:icon="@drawable/cog"/>
+
+        <item
+            android:id="@+id/nav_aboutus"
+            android:title="About us"
+            android:icon="@drawable/info"/>
+
+
+    </group>
+
+</menu>
